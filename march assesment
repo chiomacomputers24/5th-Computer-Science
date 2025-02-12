@@ -1,0 +1,65 @@
+#question 1
+
+for i in range(0,22,2):
+    print(i)
+
+
+
+#question 2
+total = 0
+
+num = int(input("Enter a number:"))
+num2 = int(input("Enter a second number:"))
+
+
+while num <= 50:
+    num + num2 = total
+    
+print(total)
+
+#QUESTION 3
+
+name = input("Enter name:")
+for y in name:
+    print(y)
+    
+#question 4
+print("****************************************************")
+print("**Welcome to your library account**")
+print("Option 1:               Return book")
+print("Option 2:               Borrow a book")
+print("Option 3:                  Exit")
+print("****************************************")
+
+count = 0
+username = input("Enter username:")
+
+while username != "chioma":
+    print("Wrong!")
+    username = input("Enter username:")
+
+if username == "chioma":
+    print("Correct")
+
+
+   
+
+password = int(input("Enter password:"))
+
+while password != "1234":
+    count=+1
+    print("Wrong!")
+    password = int(input("Enter password:"))
+    if count <= 3:
+        print("Sorry! You have entered the incorrect password three times")
+        
+if password == "1234":
+    print("Correct")
+
+option = int(input("Choose an option"))
+
+if option == "1":
+
+
+
+    
